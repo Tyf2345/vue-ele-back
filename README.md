@@ -3,7 +3,7 @@
   这是vue后台管理系统对应的后台部分(持续更新中)
   - 目前 登录/登出、首页卡片、icon图标、表格分页/模糊查询 接口已经完成
 
-### demo: [demo传送阵](http://114.215.147.221:8087)
+### demo: [传送阵](http://114.215.147.221:8087)
 
 ### 技术栈
 
@@ -11,10 +11,10 @@
     Express + Mongoose + svg-captcha + jsonwebtoken + express-session
   ```
 
-  ### 注意事项
+  ### 启动项目注意事项
 
   - mongoose (开启状态)
-  - 接口返回状态 sataus:0 成功&nbsp; ; &nbsp; 1 请求字段不正确&nbsp; ;  &nbsp;2 无效的token
+  - node版本 > 6.0
 
   ### 项目运行
 
@@ -26,28 +26,6 @@
   访问: http://localhost:3001
   ```
 
-### demo: [demo传送阵](http://114.215.147.221:8087)
-
-### 技术栈
-
-  ```js
-    Express + Mongoose + svg-captcha + jsonwebtoken + express-session
-  ```
-
-  ### 注意事项
-
-  - mongoose (开启状态)
-  - 接口返回状态 sataus:0 成功&nbsp; ; &nbsp; 1 请求字段不正确&nbsp; ;  &nbsp;2 无效的token
-
-  ### 项目运行
-
-  ```js
-  git clone https://github.com/Tyf2345/vue-ele-back.git
-  cd vue-ele-back
-  yarn install
-  yarn dev
-  访问: http://localhost:3001
-  ```
 
 
 ### 说明
@@ -59,6 +37,11 @@
 >  如有问题请直接在 Issues 中提
 
 >  部署环境 阿里云 ubuntu16.04 
+
+>   接口返回状态  sataus <br/>
+    0 : 成功  <br/>
+    1 : 请求字段不正确 <br/>
+    2 : 无效的token <br/>
 
 >  项目地址[前端Vue项目地址](https://github.com/Tyf2345/vue-admin-ele)、[后台node接口地址](https://github.com/Tyf2345/vue-ele-back)
 
